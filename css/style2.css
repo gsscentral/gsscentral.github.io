@@ -60,6 +60,13 @@ body{
  -webkit-transform: translate(-50%, -50%);
 }
 
+.img-maur-emp{
+  padding: 20px;
+  top: 50%;
+  left: 70%;
+  margin-left:13%;
+}
+
 .first-name{
  margin-top: 175px;
  color: #fff;
