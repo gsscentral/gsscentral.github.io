@@ -204,6 +204,11 @@ div.progress-bar > span{
 #portfolio-section{
  margin-bottom: 50px;
 }
+
+.mukesh_details{
+  width: 250px;
+ height: 250px;
+}
 /* For Under Line*/
 h3 > span, h4 > span, .nav a{
  position: relative;
@@ -245,5 +250,21 @@ h3 > span:hover:before, h4 > span:hover:before, .nav a:hover:before{
   .sec-header > h3{
     border-top: 1px solid lightgray;
 	padding-top: 15px;
+  }
+}
+
+blink {
+  animation: 2s linear infinite condemned_blink_effect;
+}
+
+@keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
   }
 }
